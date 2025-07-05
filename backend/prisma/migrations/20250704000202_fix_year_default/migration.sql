@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Vehicle" ADD COLUMN     "year" INTEGER NOT NULL DEFAULT 2000;

@@ -1,0 +1,25 @@
+// Conexão com o banco PostgreSQL
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Gerador do Prisma Client
+generator client {
+  provider = "prisma-client-js"
+}
+
+// MODELOS
+model User {
+  id       Int     @id @default(autoincrement())
+  email    String  @unique
+  password String
+}
+
+model Vehicle {
+  id     Int    @id @default(autoincrement())
+  name   String
+  plate  String @unique
+  year Int @default(2000)
+  status Boolean @default(true)
+}
