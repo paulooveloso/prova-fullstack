@@ -33,12 +33,3 @@ EMAIL: final@teste.com
 SENHA: minhasenha123
 
 ---
-
-## 🛠️ Como Rodar Localmente
-
-### Backend
-
-```bash
-cd backend
-npm install
-npm run dev
