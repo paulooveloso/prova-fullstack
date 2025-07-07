@@ -1,0 +1,10 @@
+{
+  "build": {
+    "commands": [
+      "cd back && npm install"
+    ]
+  },
+  "start": {
+    "cmd": "cd back && npm start"
+  }
+}
