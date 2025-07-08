@@ -27,9 +27,9 @@ Este projeto é uma aplicação Fullstack desenvolvida com **React** no frontend
 
 ## 🌐 Link do Site
 
-🔗 [Acesse o site aqui] https://prova-fullstack-724v.vercel.app/login
+🔗 [Acesse o site aqui] https://prova-fullstack-7k4o9c74s-pauloovelosos-projects.vercel.app/login
 USUARIO PARA TESTE 
-EMAIL: final@teste.com
-SENHA: minhasenha123
+EMAIL: usuario@teste.com
+SENHA: 123456
 
 ---
